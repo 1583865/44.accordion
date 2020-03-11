@@ -1,0 +1,53 @@
+body {
+	margin: 0 ;
+	background:url("./img/7.jpg") no-repeat;
+	background-size: 100% 100%;
+
+}
+ul,ol {
+	list-style: none;
+	padding: 0px;
+}
+.accordion {
+	width: 1156px;
+	height: 430px;
+	background-color: pink;
+	margin: 50px auto;
+}
+.accordion ul {
+	height: 100%;
+}
+.accordion ul .list {
+	float: left;
+	width: 86px;
+	height: 438px;
+	background-color: red;
+	background: url("./img/10.jpg") no-repeat center center;
+	background-size: 100% 100%;
+}
+.accordion ul .list:nth-child(2){
+	background: url("./img/8.jpg") no-repeat center center;
+}
+.accordion ul .list:nth-child(3){
+	background: url("./img/9.jpg") no-repeat center center;
+}
+.accordion ul .list:nth-child(4){
+	background: url("./img/10.jpg") no-repeat center center;
+}
+.accordion ul .list:nth-child(5){
+	background: url("./img/9.jpg") no-repeat center center;
+}
+.accordion ul .show {
+	width: 812px;
+	background-color: lightblue;
+}
+.accordion ul .list img {
+	width: 82px;
+	height: 438px;
+}
+.list img {
+	opacity: 1;
+}
+.show img {
+	opacity: 0;
+}
